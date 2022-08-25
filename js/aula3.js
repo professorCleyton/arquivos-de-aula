@@ -1,35 +1,35 @@
-// // APRENDENDO MAIS SOBRE STRINGS(TEXTOS) Concatenando ou juntando
-// let primeiroTexto = "Estamos aprendendo a concatenar textos em uma variável";
-// let segundoTexto = ' ou em outros lugares';
-// let tipoBoleano = true;
-// let valorConcatenado = '';
+// APRENDENDO MAIS SOBRE STRINGS(TEXTOS) Concatenando ou juntando
+let primeiroTexto = "Estamos aprendendo a concatenar textos em uma variável";
+let segundoTexto = ' ou em outros lugares';
+let tipoBoleano = true;
+let valorConcatenado = '';
 
-// primeiroTexto = primeiroTexto + ' ou em outros lugares'; // maneira 1
-// console.log(primeiroTexto);
+primeiroTexto = primeiroTexto + ' ou em outros lugares'; // maneira 1
+console.log(primeiroTexto);
 
-// primeiroTexto +=  ' ou em outros lugares'; // maneira 2 
-// console.log(primeiroTexto);
+primeiroTexto +=  ' ou em outros lugares'; // maneira 2 
+console.log(primeiroTexto);
 
-// //Maneira 3
-// valorConcatenado = `${primeiroTexto} ${segundoTexto}.
-// Esse aqui é um tipo boleano:${tipoBoleano}`;
-// console.log(valorConcatenado);
+//Maneira 3
+valorConcatenado = `${primeiroTexto} ${segundoTexto}.
+Esse aqui é um tipo boleano:${tipoBoleano}`;
+console.log(valorConcatenado);
 
-// //DESCOBRINDO O TAMANHO DE UMA STRING
-// let minhaEscola = 'Mach1 Escola';
-// console.log(minhaEscola.length);
+//DESCOBRINDO O TAMANHO DE UMA STRING
+let minhaEscola = 'Mach1 Escola';
+console.log(minhaEscola.length);
 
-// //PEGANDO UM PEDACINHO DA MINHA STRING
-// console.log(minhaEscola.slice(0,3));
+//PEGANDO UM PEDACINHO DA MINHA STRING
+console.log(minhaEscola.slice(0,3));
 
-// //DEIXAR TUDO MAIUSCULO
-// console.log(minhaEscola.toUpperCase());
+//DEIXAR TUDO MAIUSCULO
+console.log(minhaEscola.toUpperCase());
 
-// //deixando tudo minúsculo
-// console.log(minhaEscola.toLocaleLowerCase());
+//deixando tudo minúsculo
+console.log(minhaEscola.toLocaleLowerCase());
 
-// //REPLACE
-// console.log(minhaEscola.replace('Escola',''));
+//REPLACE
+console.log(minhaEscola.replace('Escola',''));
 
 let primeiroNumero = 0;
 let segundoNumero = 0;
