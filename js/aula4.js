@@ -74,5 +74,5 @@
     }else{
         console.log(recebeNumero,'É par!');
     }
-
+    typeof(variavel)
 }
