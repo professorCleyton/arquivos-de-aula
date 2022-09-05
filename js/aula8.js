@@ -1,47 +1,47 @@
-// {
-//     let professor = 'Cleyton';
-//     const alunos = new Array();
-//     const frutas = [];
-//     //Atribuindo
+{
+    let professor = 'Cleyton';
+    const alunos = new Array();
+    const frutas = ['Banana','Maçã'];
+    //Atribuindo
 
-//     // Inserindo no final
-//     alunos.push('Geovana','Kayk');
-//     alunos.push('Elis','João');
-//     // Inserindo no inicio do array
-//     alunos.unshift('Charle','Mateus Paim','Rhaidy');
+    // Inserindo no final
+    alunos.push('Geovana','Kayk');
+    alunos.push('Elis','João');
+    // Inserindo no inicio do array
+    alunos.unshift('Charle','Mateus Paim','Rhaidy');
 
-//     // Fazendo uma cópia de um array para outra variavel array
-//     const copiaAlunos = alunos.slice();
+    // Fazendo uma cópia de um array para outra variavel array
+    const copiaAlunos = alunos.slice();
 
-//     // console.log('Lista antes da exclusão');
-//     // for(let aluno of alunos){
-//     //     console.log(aluno);
-//     // }
+    // console.log('Lista antes da exclusão');
+    // for(let aluno of alunos){
+    //     console.log(aluno);
+    // }
 
-//     // Descobrindo a posição de um item
-//     let posicao = alunos.indexOf('Elis');
-//     console.log('Posição da Elis',posicao);
+    // Descobrindo a posição de um item
+    let posicao = alunos.indexOf('Elis');
+    console.log('Posição da Elis',posicao);
 
-//     // Removendo itens com base em uma posição de partida
-//     alunos.splice(posicao,2);
+    // Removendo itens com base em uma posição de partida
+    alunos.splice(posicao,2);
 
-//     // Removendo o último item
-//     alunos.pop();
-//     // Removendo o primeiro item
-//     alunos.shift();
+    // Removendo o último item
+    alunos.pop();
+    // Removendo o primeiro item
+    alunos.shift();
 
-//     // console.log('Lista pós exclusão');
-//     // for(let aluno of alunos){
-//     //     console.log(aluno);
-//     // }
+    // console.log('Lista pós exclusão');
+    // for(let aluno of alunos){
+    //     console.log(aluno);
+    // }
 
  
 
 
-//     // exibindo
-//     console.log('Array após exclusão',alunos);
-//     console.log('Cópia do Array antes da exclusão',copiaAlunos);
-// }
+    // exibindo
+    console.log('Array após exclusão',alunos);
+    console.log('Cópia do Array antes da exclusão',copiaAlunos);
+}
 
 /*
 Eu tenho uma turma com 10 alunos, e gostaria de armazenar as notas de cada aluno 
