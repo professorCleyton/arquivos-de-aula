@@ -24,14 +24,14 @@
         }
         linha.push(pontuacao);
     }
+    let ultimoItem = tabela[0].length -1; // Ultimo item é sempre os pontos somados
+    // CORREÇÃO PARA ORDENAÇÃO COM SORT() , ESTÁ UM POUCO A FRENTE DO QUE VOCÊS APRENDERAM
+    tabela.sort((b,a) => a[ultimoItem] - b[ultimoItem]);
+
+    let posicao=1;
     for(let linha of tabela){
-        let ultimoItem = linha.length -1;
-        console.log(linha[0],linha[ultimoItem]);
+       console.log(posicao,linha[0],linha[ultimoItem]);
+       posicao++;
     }
 }
 
-
-{
-    const frutas = ['Banana','Maçã','Abacaxi'];
-    console.log(frutas.sort());
-}
