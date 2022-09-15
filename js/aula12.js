@@ -40,7 +40,7 @@ Como eu consigo fazer isso utilizando função?
     return resultado;
   }
 
-  // console.log(somaNumeros(numbers));
+  //console.log(somaNumeros(numbers));
 }
 
 // SE EU USAR SPREAD OPERATOR?
@@ -59,15 +59,17 @@ Como eu consigo fazer isso utilizando função?
 
 //EXEMPLO DE OUTRA COISA QUE CONSIGO FAZER COM SPREAD OPERATOR
 // COPIAR ARRAYS SEM USAR SLICE
-var arr = [1, 2, 3];
-var arr2 = [...arr]; // like arr.slice()
-
+{
+let arr = [1, 2, 3];
+let arr2 = [...arr]; // like arr.slice()
+}
 //ADICIONAR POSIÇÕES DE UM ARRAY COM OUTRO ARRAY
-var pedacoDaMusica = ["ombro", "joelho"];
-var cantando = ["cabeça", ...pedacoDaMusica, "e", "pé"];
+let pedacoDaMusica = ["ombro", "joelho"];
+let cantando = ["cabeça", ...pedacoDaMusica, "e", "pé"];
+//console.log(cantando)
 cantando[2] = "testa";
-// console.log(pedacoDaMusica);
-// console.log(cantando);
+//console.log(pedacoDaMusica);
+//console.log(cantando);
 //PROBLEMA
 
 // EXEMPLO COM REST OPERATOR
@@ -84,7 +86,7 @@ function multiplicacao(tabela, multiplos) { // retorna um array
 
 const multiplicadores = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// console.log('Tabela do 2', multiplicacao(2,multiplicadores));
+//console.log('Tabela do 2', multiplicacao(2,multiplicadores));
 
 
 function fun1(...array) {
@@ -108,7 +110,7 @@ var arr = multiply(2, 1, 2, 3);
 
 {
   function exibirEsomar1(resultado){
-    console.log(resultado+1);
+    //console.log(resultado+1);
   }
 
   function somaERetorna(a,b){
@@ -120,7 +122,7 @@ var arr = multiply(2, 1, 2, 3);
 
 // DEFAULT OPERATOR
 {
-  function multiply(a, b) { // number
+  function multiply(a, b=0) { // number
     b = (typeof b !== 'undefined') ? b : 0;
   
     return a * b;
